@@ -7,6 +7,6 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    a = a%2
-    b = b%2
-    return a != 0 != b
+    x1 = a>0
+    x2 = b>0
+    return x1 or x2

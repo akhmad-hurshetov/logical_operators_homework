@@ -7,4 +7,4 @@ def main(a):
         bool: answer
     """
 
-    return a>9999 and a<1000000
+    return a>9999 and a<100000

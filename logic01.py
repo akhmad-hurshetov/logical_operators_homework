@@ -9,5 +9,3 @@ def main(a,b,c):
         bool: answer
     """
     return b>a and c>b
-
-print(main(3,4,5))

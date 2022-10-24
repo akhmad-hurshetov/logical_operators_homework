@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1 = a%10
+    x2 = a//10
+    x3 = a//100
+    s = x1 + x2 + x3
+    return s%2 != 0

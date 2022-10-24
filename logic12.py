@@ -10,5 +10,3 @@ def main(a):
     x2 = a//10
 
     return x1 == x2
-print(main(22))
-print(main(222))

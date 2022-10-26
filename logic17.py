@@ -17,4 +17,5 @@ def main(a):
     x5 = a%10
     a = a//10
 
-    return x5<x4<x3<x2<x1
+    return x1<x2<x3<x4<x5
+print(main(12345))

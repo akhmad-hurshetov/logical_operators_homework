@@ -18,4 +18,3 @@ def main(a):
     a = a//10
 
     return x1<x2<x3<x4<x5
-print(main(12345))
